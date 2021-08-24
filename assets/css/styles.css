@@ -1,6 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
+
 :root{
   --header-height: 3rem;
   --font-semi: 600;
@@ -8,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
+  --first-color: #ca1a0d;
   --second-color: #0E2431;
 }
 
@@ -56,7 +57,9 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: #bfbfbf;
+  background-color: #131313;
+
 }
 h1,h2,p{
   margin: 0;
