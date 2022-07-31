@@ -186,7 +186,15 @@ img{
 .show{
   right: 0;
 }
+.wordz{
+  display: flex;
+  height: 100%;
+  margin: auto;
+  color: bfbfbf;
+  font: 700 normal 1em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 
+}
 /*===== HOME =====*/
 .home{
   height: calc(100vh - 3rem);
