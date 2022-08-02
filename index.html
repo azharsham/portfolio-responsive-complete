@@ -156,7 +156,7 @@
         $("#submit-form").submit((e) => {
             e.preventDefault()
             $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbwG7S33lZ0Iobre8dWnhnv-6cPeEqcBlIOZdZw-Vg/exec",
+                url: "https://script.google.com/macros/s/exec",
                 data: $("#submit-form").serialize(),
                 method: "post",
                 success: function (response) {
